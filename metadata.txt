@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=ImportPhotosDesc
+qgisMinimumVersion=2.0
+description=Import Photos and Descriptions
+version=0.3
+author=modification by Bobby Sayers, original by Marios S. Kyriakou, George A. Christou, KIOS Research and Innovation Center of Excellence (KIOS CoE)
+email= modification by sayersr@uw.edu, original by mariosmsk@gmail.com, george.a.christou@gmail.com
+
+about= Modification: ImportPhotos is great, I just needed to modify it to import the ImageDescription EXIF tag. I changed a few error messages as well. Original: This tool can be used to import Geo-Tagged photos (jpg or jpeg) as points to QGIS. The user is able to select a folder with photos and only the geo-tagged photos will be taken. Then a geoJSON point file will be created which will contain the name of the picture, its directory, the date and time taken, altitude, longitude, latitude, azimuth and North. The plug-in doesn’t need any third party applications to work. It has two buttons; the one is to import geotagged photos, and the other one is to be able to click on a point and display the photo along with information regarding the date time and altitude. Mac users please refer to the Read Me file for further guidance.
+
+tracker=https://github.com/sayersr/import-photo-desc/issues
+repository=https://github.com/sayersr/import-photo-desc
+# End of mandatory metadata
+
+# Recommended items:
+# Uncomment the following line and add your changelog:
+changelog=2018-08-04  ImportPhotosDesc 0.3:
+		First Published
+		
+# Tags are comma separated with spaces allowed
+tags=photos, jpeg, jpg, geotag, ImageDescription
+
+homepage=
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
